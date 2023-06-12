@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{183DCE7A-23C1-4535-B76D-92EA7C73BBBD}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{51EF6FED-86A0-40F8-9DE1-EB2B68EB1381}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{C6D7FF49-18C0-433B-9349-7666D9758AE0}">
+								<Image FileName="-973444383" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageBlogPost" Key="{3CCFBEE1-FE06-4E58-9B93-033374B62BD7}">
+								<Image FileName="-973444383" Left="0" Top="106" Right="1920" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost:8080/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkAddNewPostBtn" Key="{A93AC8E1-F731-4F41-BB3B-2D0C811AB5F7}">
+										<Image FileName="-973444383" Left="789" Top="266" Right="900" Bottom="289" />
+										<Selectors>
+											<Selector>
+												<Value Value="#add_new_post_btn" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Add New&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddNew" Key="{FECA10B1-CA39-49D9-BB7B-3E91920301AD}">
+										<Image FileName="-973444383" Left="789" Top="257" Right="900" Bottom="303" />
+										<TypeInfo Item0="{845684E0-D50C-461B-A519-7BFF1B542BA4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Add New&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;post&apos;)]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formPostForm" Key="{1E531756-594F-4876-9D65-FC1BE20A0B53}">
+										<Image FileName="-870602929" Left="586" Top="361" Right="1762" Bottom="807" />
+										<Selectors>
+											<Selector>
+												<Value Value="#post-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;bv-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTitle" Key="{EE27E6A7-77AE-4D54-9D65-1D840C469DE8}">
+										<Image FileName="-870602929" Left="586" Top="361" Right="1762" Bottom="435" />
+										<TypeInfo Item0="{9AA59EB9-B3A8-43C7-A72D-1316F5D3198E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#title" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;title&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDescription" Key="{ADFA268F-482B-4007-B90B-30DE5346FABF}">
+										<Image FileName="214680630" Left="586" Top="458" Right="1762" Bottom="532" />
+										<TypeInfo Item0="{9AA59EB9-B3A8-43C7-A72D-1316F5D3198E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#description" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;description&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaBody" Key="{E4DF48E7-F76A-4C4C-8998-52599007454A}">
+										<Image FileName="1141800178" Left="586" Top="556" Right="1762" Bottom="630" />
+										<TypeInfo Item0="{20B15874-447E-4E27-86FE-1528F540C72E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#body" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;body&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;post-form&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputAuthor" Key="{B15DF262-17A1-4EDA-A60C-E3C805CA9FE8}">
+										<Image FileName="-206398521" Left="586" Top="653" Right="1762" Bottom="727" />
+										<TypeInfo Item0="{20B15874-447E-4E27-86FE-1528F540C72E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#author" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;author&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@title=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[4]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[4]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonAddPost" Key="{F8BEF4C6-E610-4A2B-9645-6D40FE15A25D}">
+										<Image FileName="29757750" Left="1106" Top="751" Right="1241" Bottom="807" />
+										<TypeInfo Item0="{845684E0-D50C-461B-A519-7BFF1B542BA4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#post" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Add Post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[5]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{51EF6FED-86A0-40F8-9DE1-EB2B68EB1381}">
+			<Child Name="BrowserWindow" Owner="{C6D7FF49-18C0-433B-9349-7666D9758AE0}" />
+			<Child Name="pageBlogPost" Owner="{3CCFBEE1-FE06-4E58-9B93-033374B62BD7}">
+				<Child Name="linkAddNewPostBtn" Owner="{A93AC8E1-F731-4F41-BB3B-2D0C811AB5F7}">
+					<Child Name="buttonAddNew" Owner="{FECA10B1-CA39-49D9-BB7B-3E91920301AD}" />
+				</Child>
+				<Child Name="formPostForm" Owner="{1E531756-594F-4876-9D65-FC1BE20A0B53}">
+					<Child Name="textboxTitle" Owner="{EE27E6A7-77AE-4D54-9D65-1D840C469DE8}" />
+					<Child Name="textboxDescription" Owner="{ADFA268F-482B-4007-B90B-30DE5346FABF}" />
+					<Child Name="textareaBody" Owner="{E4DF48E7-F76A-4C4C-8998-52599007454A}" />
+					<Child Name="emailinputAuthor" Owner="{B15DF262-17A1-4EDA-A60C-E3C805CA9FE8}" />
+					<Child Name="submitbuttonAddPost" Owner="{F8BEF4C6-E610-4A2B-9645-6D40FE15A25D}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
