@@ -1,0 +1,202 @@
+{
+  "id": "ed42b527-3e0c-45ea-bef0-1c085ea0c1b1",
+  "version": "2.0",
+  "name": "Autotest",
+  "url": "http://localhost:8080/",
+  "tests": [{
+    "id": "aa87849f-4b33-466c-9bde-125abcc2cab3",
+    "name": "Untitled",
+    "commands": [{
+      "id": "e9f0b0b4-3cb4-4359-814f-475fa8519f55",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b1d2744-f959-4e82-9ed5-83e38c14c82a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0e6ddd0-40e2-4f9b-b8b4-a9957456366e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//a[@id='add_new_post_btn']/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add New')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a3a585-93b6-4782-8dec-a41794d7b0b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4337613-54a3-42d8-b713-4a0764f19814",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "My new post "
+    }, {
+      "id": "2db379b6-7ff7-40c9-9c50-a893d8c38caf",
+      "comment": "",
+      "command": "click",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//input[@id='description']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39927957-489a-401f-b12a-e843db214cb5",
+      "comment": "",
+      "command": "type",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//input[@id='description']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Description"
+    }, {
+      "id": "2f5d7d1f-cf8c-45bd-932f-511bd88d6089",
+      "comment": "",
+      "command": "click",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//input[@id='description']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d48506dc-f48c-4066-8605-d112d130a782",
+      "comment": "",
+      "command": "type",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//input[@id='description']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Description of my post"
+    }, {
+      "id": "5f77f9a0-de4f-407a-804e-1cd1c69dd1b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=body",
+      "targets": [
+        ["id=body", "id"],
+        ["name=body", "name"],
+        ["css=#body", "css:finder"],
+        ["xpath=//textarea[@id='body']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "582bbcc3-8c86-4186-be4c-cec99cdeef2c",
+      "comment": "",
+      "command": "type",
+      "target": "id=body",
+      "targets": [
+        ["id=body", "id"],
+        ["name=body", "name"],
+        ["css=#body", "css:finder"],
+        ["xpath=//textarea[@id='body']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Body of my post"
+    }, {
+      "id": "ef177d4e-2fa6-4eb7-80fa-bbbc4483f44f",
+      "comment": "",
+      "command": "click",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["name=author", "name"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "479f1964-b27a-4d77-8aaa-72d90fd9e705",
+      "comment": "",
+      "command": "type",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["name=author", "name"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "22@i.ua"
+    }, {
+      "id": "fc3b5e59-d890-418c-9823-b0aef752a982",
+      "comment": "",
+      "command": "click",
+      "target": "id=post",
+      "targets": [
+        ["id=post", "id"],
+        ["name=post", "name"],
+        ["css=#post", "css:finder"],
+        ["xpath=//input[@id='post']", "xpath:attributes"],
+        ["xpath=//form[@id='post-form']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e7a4efdb-d15d-45d9-a9f7-51e2170a2bab",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aa87849f-4b33-466c-9bde-125abcc2cab3"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
